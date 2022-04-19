@@ -7,13 +7,13 @@ module GitHubPages
   class Dependencies
     VERSIONS = {
       # Jekyll
-      "jekyll" => "3.9.0",
+      "jekyll" => "3.9.2",
       "jekyll-sass-converter" => "1.5.2",
 
       # Converters
-      "kramdown" => "2.3.1",
+      "kramdown" => "2.3.2",
       "kramdown-parser-gfm" => "1.1.0",
-      "jekyll-commonmark-ghpages" => "0.1.6",
+      "jekyll-commonmark-ghpages" => "0.2.0",
 
       # Misc
       "liquid" => "4.0.3",
@@ -27,10 +27,11 @@ module GitHubPages
       "jekyll-gist" => "1.5.0",
       "jekyll-paginate" => "1.1.0",
       "jekyll-coffeescript" => "1.1.1",
-      "jekyll-seo-tag" => "2.7.1",
+      "jekyll-seo-tag" => "2.8.0",
       "jekyll-github-metadata" => "2.13.0",
       "jekyll-avatar" => "0.7.0",
       "jekyll-remote-theme" => "0.4.3",
+      "jekyll-include-cache" => "0.2.1",
 
       # Plugins to match GitHub.com Markdown
       "jemoji" => "0.12.0",
